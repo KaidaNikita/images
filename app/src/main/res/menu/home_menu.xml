@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/home"
+    android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Головна"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/register"
+        android:title="Реєстрація"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/comands"
+        android:title="Команда"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/customListView"
+        android:title="Список друзів"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/users"
+        android:title="Користувачі"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/logout"
+        android:title="Вихід"
+        app:showAsAction="never"/>
+</menu>
